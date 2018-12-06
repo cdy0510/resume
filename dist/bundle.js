@@ -915,7 +915,7 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process, global, setImmediate) {/*!
- * Vue.js v2.5.16
+ * Vue.js v2.5.17
  * (c) 2014-2018 Evan You
  * Released under the MIT License.
  */
@@ -6000,7 +6000,7 @@ Object.defineProperty(Vue, 'FunctionalRenderContext', {
   value: FunctionalRenderContext
 });
 
-Vue.version = '2.5.16';
+Vue.version = '2.5.17';
 
 /*  */
 
@@ -9280,7 +9280,7 @@ var content = __webpack_require__(14);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(1)("41dc59c9", content, false, {});
+var update = __webpack_require__(1)("ab8607c8", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -9353,7 +9353,7 @@ var content = __webpack_require__(17);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(1)("5e2f330e", content, false, {});
+var update = __webpack_require__(1)("394908cc", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -9392,17 +9392,23 @@ module.exports = {
         description: 'Back-end developer',
         dateOfBirth: '1993.05.10',
         email: 'cdypro0510@gmail.com',
-        links: [{ name: 'github', href: 'https://github.com/cdy0510' }, { name: 'blog', href: 'https://cdy0510.github.io' }]
+        links: [{ name: 'blog(이전 중)', href: 'https://cdy0510.github.io' }, { name: 'blog', href: 'https://devdy.tistory.com/' }]
     },
     introduction: `
-2015년부터 Back-End 개발과 서버관리를 하고 있는 조다영입니다.<br />
-현재 사용하고 있는 기술스택은 JAVA - Spring이며, 서브로 node.js - express를 이용해 채팅 서비스를 개발 했습니다. <br />
-서버는 AWS - ubuntu 환경에서 개발 중이며, 이전 직장에서는 Windows서버를 사용했습니다.<br />
-최근에는 서버기술들에 관심이 생겨 AWS 서비스를 하나씩 경험해보고 있습니다. 또한 GCP를 실습해보는 스터디를 진행하고 있습니다.<br />
-Back-End뿐만 아니라, 사용자에게 직접 노출되는 UI/UX에도 관심이 많아 사내에서 퍼블리싱과 디자인기획에도 참여하고 있습니다.<br />
-기술 세미나참여와 커뮤니티 활동을 좋아해 활동하고 있는 커뮤니티 내에서 Python - Django 스터디를 주도해 진행하기도 하고, 2017년 말부터 DjangoGirlsSeoul의 Organizer로 활동하며 다양한 기술 행사를 기획/진행하고 있습니다.<br /><br />
-저의 강점은 추진력이 강하다는 것입니다. 회사에서 몇년간 미뤄두었던 개선 작업들을 빠르게 처리하다보니 회사에서 최초로 '집중 근무일'제도를 만들어 일주일 중 하루를 개선 작업에 몰두 할 수 있도록 재택근무의 기회와 시간을 주시기도 했습니다. 
-주로 현재 회사에서는 AWS의 다양한 기능들을 하나씩 도입해 보며 프로젝트를 진행하고 있습니다.<br />
+안녕하세요. 백엔드 개발자 조다영입니다.</br>
+현재 주 기술스택은 JAVA - Spring이며, Node.js - express를 이용해 채팅 서비스를 개발한 경험이 있습니다. 백엔드 기술뿐만 아니라 기본적인 프론트페이지 구성을 할 수 있으며 관리자 페이지 제작 경험이 다수 있습니다.
+최근 사용했던 서버는 AWS - ubuntu 환경에서 개발했으며, 첫번째 직장에서는 Windows서버에서 IIS를 관리하고 스케쥴러를 추가하는 등의 작업을 했습니다.</br>
+AWS를 이용하다보니 서버관련 서비스들에 관심이 생겨 AWS 서비스를 하나씩 경험해보고 있습니다. 예를 들어 serverless를 경험해보기 위해 썸네일을 자동으로 생성해주는 Lambda 함수를 작성해보기도 하고, 음성SNS를 개발할 때 CloudFront로 S3에 있는 음성파일을 CDN으로 스트리밍할 수 있게 구성했으며, CloudWatch를 통해 서버를 모니터링하기도 했습니다. 채팅서비스를 개발할 땐 Elastic Beanstalk으로 자동 배포되는 환경을 구축해보았는데 기존 배포환경과 비교해 빠르고 번거롭지 않게 배포할 수 있는 점이 좋았습니다. 이 외에도 다양한 서비스를 이용해 쉽게 프로젝트에서 원하는 기능들을 추가했습니다. 
+또한 GCP를 실습해보는 스터디에 참여하여 AWS외에도 다양한 서버환경을 배우기 위해 노력했습니다.
+서버기술 외에도 사용자에게 직접 노출되는 UI/UX에도 관심이 많아 사내에서 퍼블리싱과 디자인기획에 자주 참여했습니다.</br></br>
+
+기술 세미나참여와 커뮤니티 활동을 좋아해 활동하고 있는 커뮤니티 내에서 스터디를 주도해 진행하기도 하고, DjangoGirls Seoul의 Organizer로 약 1년간 활동하며 다양한 기술 행사를 기획/진행하기도 했습니다. 
+2018년 11월부터는 GDG 운영진들의 추천으로 Google Developers Groups의 Seoul챕터에 합류하게 되었습니다. 커뮤니티 활동을 꾸준히 하는 이유는 제가 커뮤니티 안에서 동기부여를 얻기 때문입니다.
+다른 개발자들과 개발 경험을 공유하기를 좋아하며 그 안에서 얻은 정보들을 따로 찾아 공부하고있습니다. </br></br>
+
+저의 강점은 추진력이 강하다는 것입니다. 첫번째 회사에서 몇년간 미뤄두었던 개선 작업들을 빠르게 처리하다보니 회사에서 최초로 '집중 근무일'제도를 만들어 일주일 중 하루를 개선 작업에 몰두 할 수 있도록 재택근무의 기회와 시간을 주시기도 했습니다. 두번째 회사에서는 AWS의 다양한 기능들을 하나씩 도입하여 업무 효율도 높이고, 기능적으로도 안정적인 서비스를 제공하기 위해 노력했습니다.
+저의 강점을 살려 커뮤니티 운영에서도 행사를 기획하고 진행할때 일정 정리와 함께 추진하는 일을 도맡아 하기도 했습니다.</br></br>
+현실에 안주하는 것이 아니라 매일 조금씩이라도 발전하자는 모토를 가지고 제가 사용하는 기술들에 대해 공부하려고 노력합니다. 처음에는 기술 세미나나 커뮤니티 활동을 하며 들었던 기술에 대해 검색을 해보기도 하고, 실제 제가 하고 있는 프로젝트에 도입할 수 있는 부분이 없는지 찾는 편입니다. 글로 읽는 것보단 실제 적용해보며 배우는 것이 훨씬 많기 때문입니다. 최근에는 개발방법론에 관심이 생겨 켄트백저자의 TDD책을 읽으며 테스트주도개발을 실습해보기도 했습니다. 테스트 코드의 필요성과 이점을 경험했기 때문에 테스트코드를 작성하는 문화를 가진 회사에 관심을 가지고 있습니다.
     `,
 
     contents: {
@@ -9428,17 +9434,13 @@ Back-End뿐만 아니라, 사용자에게 직접 노출되는 UI/UX에도 관심
             'contents': ['']
         }],
         '개인 활동': [{
-            'date': '2017.10 - 현재',
+            'date': '2017.10 - 2018.12',
             'title': 'Django Girls Seoul',
-            'contents': ['<span style="font-weight: bold;">Django Girls Seoul Organizer</span>', '- 행사준비', '- 홍보글 작성', '- <a href="https://www.facebook.com/djangogirlsseoul">장고걸스 페이스북 페이지</a>']
+            'contents': ['<span style="font-weight: bold;">Django Girls Seoul Organizer</span>', '- 행사기획&운영', '- 홍보글 작성', '- <a href="https://www.facebook.com/djangogirlsseoul">장고걸스 페이스북 페이지</a>']
         }, {
-            'date': '2018.04.21 - 현재',
-            'title': 'Cloud Study Jams',
-            'contents': ['Google Cloud Platform을 모두 실습해 볼 수 있도록 구글에서 제공하는 스터디 이벤트', '<a href="https://sites.google.com/view/cloudstudyjamkr/home">Cloud Study Jams Sites</a>']
-        }, {
-            'date': '2017.02.28 - 06.06',
-            'title': 'Python / Django 스터디 진행',
-            'contents': ['첫번째 책으로 기본기를 다지고, 실전편으로 실습을 진행', '실전편에서는 개인 홈페이지에 기능을 덧붙여보며 진행', '- 파이썬 웹 프로그래밍 : Django(장고)로 배우는 쉽고 빠른 웹 개발', '- 파이썬 웹 프로그래밍, 실전편 : Django(장고)를 활용한 쉽고 빠른 웹 개발']
+            'date': '2018.11 - 현재',
+            'title': 'Google Developers Groups',
+            'contents': ['<span style="font-weight: bold;">GDG Seoul Organizer</span>', '- 행사기획&운영', '<a href="https://www.facebook.com/groups/gdgseoul/">GDG Seoul 페이스북 페이지</a>']
         }],
         '학력 사항': [{
             'date': '2015.03 - 2017.02',
@@ -9450,18 +9452,18 @@ Back-End뿐만 아니라, 사용자에게 직접 노출되는 UI/UX에도 관심
             'contents': ['컴퓨터정보과', '졸업작품: 개인 맞춤 도시락 사이트 개발']
         }],
         '자격증': [{
-            'date': '2016.07.01',
+            'date': '2016.07',
             'title': '정보처리기사',
             'contents': ['한국산업인력공단']
         }, {
-            'date': '2015.07.01',
+            'date': '2015.07',
             'title': '정보처리산업기사',
             'contents': ['한국산업인력공단']
         }]
     },
     summary: {
         '경력 요약': [{
-            'date': ['2017.06', '현재'],
+            'date': ['2017.06', '2018.06'],
             'title': '(주)위드마인드',
             'contents': ['서버개발자', '주 - Back-end 개발', '서브 - 퍼블리싱']
         }, {
@@ -9472,9 +9474,9 @@ Back-End뿐만 아니라, 사용자에게 직접 노출되는 UI/UX에도 관심
     },
     detailContents: {
         '(주)위드마인드': {
-            'date': '2017.06 - 현재',
+            'date': '2017.06 - 2018.06',
             'info': '음성데이터를 이용하여 감정을 분석하는 서비스를 개발중인 스타트업',
-            'service': ['음성데이터를 감정데이터로 변환하는 API제공', '상담센터 관리 페이지 제작', '현재 오픈 되어있는 App은 없음', '외주 프로젝트 진행중'],
+            'service': ['음성데이터를 감정데이터로 변환하는 API제공', '상담센터 관리 페이지 제작', '외주 프로젝트 제작', '</br>', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, MySQL, Node.js, Express, AWS, HTML, CSS, Javascript, BootStrap, Jquery</div>'],
             'project': {
                 'project': [{
                     'date': '2018.04 - 2018.05',
@@ -9483,22 +9485,22 @@ Back-End뿐만 아니라, 사용자에게 직접 노출되는 UI/UX에도 관심
                 }, {
                     'date': '2017.08 - 2018.04',
                     'title': '음성 SNS 개발',
-                    'contents': ['관리자 페이지 개발', '음성 SNS APP API개발', '<br />', '퍼블리싱 외 모든 개발 단독 진행', '<br />', '음성 파일 기반의 SNS서비스', 'FCM으로 Push기능 제공', '사용자가 설정한 감정아이콘에 따라 평균 감정 데이터를 관리자 페이지에서 보여주고, 이 데이터로 다른 사용자와 매칭해주는 서비스를 제공', 'STT(Speech To Text)와 번역API를 이용하여 음성 파일과 함께 번역된 텍스트를 제공', '', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, AWS, GCP, MySQL</div>']
+                    'contents': ['관리자 페이지 개발', '음성 SNS APP API개발', '<br />', '음성 파일 기반의 SNS서비스', 'FCM으로 Push기능 제공', '사용자가 설정한 감정아이콘에 따라 평균 감정 데이터를 계산해 나와 비슷한 감정을 가지고 있는 사용자와 매칭해주는 서비스를 제공', 'STT(Speech To Text)와 번역API를 이용하여 음성 파일과 함께 번역된 텍스트를 제공', 'CDN서비스로 음성파일을 스트리밍할 수 있도록 구성', '', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, AWS, GCP, MySQL</div>']
                 }, {
                     'date': '2017.10 - 2018.01',
                     'title': '심리상담소 관련 개발',
-                    'contents': ['심리상담소 관리 페이지', '상담사 페이지(내담자 관리와 채팅기능)', '내담자 APP API개발', '<br />', '퍼블리싱 외 모든 개발 단독 진행', '<br />', '[심리상담소 관리 페이지] - Java, Spring, MySQL, AWS', '상담사 관리 기능 - 채팅관리 및 월별 상담만족도 그래프표시(Google Charts)', '회원 관리 - 회원 정보관리', 'APP 관리 - 푸시 및 팝업등 관리', '게시판 관리', '컨텐츠 관리 - 앱에 표시되는 컨텐츠 등록 및 수정(피키캐스트와 비슷한 형태)', '<br />', '[상담사 페이지] - Node.js, Express, MySQL, AWS', 'Socket.io를 이용하여 채팅 서비스 구현', '파일 및 동영상 업로드, 읽음 표시, 실시간 채팅 구현', '채팅관리 및 월별 상담만족도 그래프표시(Google Charts)', '<br />', '[API] - Java, Spring, MySQL, AWS', '관리자가 등록한 컨텐츠 제공(피키캐스트와 비슷한 형태)', '컨텐츠에 따른 추천 상담사 기능제공', '파일 및 동영상 업로드, 읽음 표시, 실시간 채팅 구현', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, Node.js, Express, AWS, MySQL</div>']
+                    'contents': ['심리상담소 관리 페이지', '상담사 페이지(내담자 관리와 채팅기능)', '내담자 APP API개발', '<br />', '[심리상담소 관리 페이지] - Java, Spring, MySQL, AWS', '상담사 관리 기능 - 채팅관리 및 월별 상담만족도 그래프표시(Google Charts)', '회원 관리 - 회원 정보관리', 'APP 관리 - 푸시 및 팝업등 관리', '게시판 관리', '컨텐츠 관리 - 앱에 표시되는 컨텐츠 등록 및 수정(피키캐스트와 비슷한 형태)', '<br />', '[상담사 페이지] - Node.js, Express, MySQL, AWS', 'Socket.io를 이용하여 채팅 서비스 구현', '파일 및 동영상 업로드, 읽음 표시, 실시간 채팅 구현', '채팅관리 및 월별 상담만족도 그래프표시(Google Charts)', '<br />', '[API] - Java, Spring, MySQL, AWS', '관리자가 등록한 컨텐츠 제공(피키캐스트와 비슷한 형태)', '컨텐츠에 따른 추천 상담사 기능제공', '파일 및 동영상 업로드, 읽음 표시, 실시간 채팅 구현', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, Node.js, Express, AWS, MySQL</div>']
                 }, {
                     'date': '2017.06 - 2018.07',
                     'title': '위드마인드 상담센터 관리 개발',
-                    'contents': ['퍼블리싱 외 모든 개발 단독 진행', '<br />', '상담센터 통합관리 페이지 개발', '상담자용 내담자 관리 페이지 개발', 'ASP로 제작된 소스를 JAVA로 변환(음성데이터를 감정데이터로 변환하는 부분)', '위드마인드 앱과 연동되는 API개발', '상담사는 내담자 데이터를 참고하며 상담일지를 작성할 수 있음', '내담자의 감정 정보를 그래프로 제공(Google Charts)', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, AWS, MySQL</div>']
+                    'contents': ['상담센터 통합관리 페이지 개발', '상담자용 내담자 관리 페이지 개발', 'ASP로 제작된 소스를 JAVA로 변환(음성데이터를 감정데이터로 변환하는 부분)', '위드마인드 앱과 연동되는 API개발', '상담사는 내담자 데이터를 참고하며 상담일지를 작성할 수 있음', '내담자의 감정 정보를 그래프로 제공(Google Charts)', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>JAVA, Spring, AWS, MySQL</div>']
                 }]
             }
         },
         '(주)웹커뮤니티': {
             'date': '2015.01 - 2016.11',
             'info': '교회 홈페이지 전문 제작 업체',
-            'service': ['<a href="http://www.webchurch.co.kr/">http://www.webchurch.co.kr/</a>', '교회 홈페이지 제작 및 관리자용 툴 제공', '교회 어플 제작(웹앱)', '실시간 설교 스트리밍 서비스 제공', '설교 및 찬양영상 등 동영상 전용 게시판 제공', '문자 서비스 제공', '맞춤형 사이트 제작', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>ASP, MSSQL, Windows Server, HTML, CSS, Javascript, BootStrap, Jquery</div>'],
+            'service': ['<a href="http://www.webchurch.co.kr/">http://www.webchurch.co.kr/</a>', '교회 홈페이지 제작 및 관리자용 툴 제공', '교회 어플 제작(웹앱)', '실시간 설교 스트리밍 서비스 제공', '설교 및 찬양영상 등 동영상 전용 게시판 제공', '문자 서비스 제공', '맞춤형 사이트 제작', '</br>', '<div style="background: #F3F3F3;border: 1px dashed #DDD; padding: 10px;">[Stack]<br>ASP, MSSQL, Windows Server, HTML, CSS, Javascript, BootStrap, Jquery</div>'],
             'project': {
                 'project': [{
                     'date': '',
@@ -9601,7 +9603,7 @@ var content = __webpack_require__(21);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(1)("12b4e43b", content, false, {});
+var update = __webpack_require__(1)("6ec0653b", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
@@ -9747,7 +9749,7 @@ var content = __webpack_require__(25);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(1)("196252c9", content, false, {});
+var update = __webpack_require__(1)("3ec6f1c9", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
